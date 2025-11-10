@@ -1,64 +1,77 @@
-Marine Safety and Shark Risk Insights 
-Overview
-This project analyzes global shark attack data with a focus on:
+# 🦈 Marine Safety and Shark Risk Insights Overview
 
-Geographic and activity-related risk factors
+This project provides actionable insights into global shark attack data to inform targeted safety and prevention strategies. By analyzing **geographic**, **activity-related**, and **demographic** risk factors, this analysis aims to enhance marine safety awareness and reduce the incidence and fatality of shark encounters worldwide.
 
-Victim demographics (especially age)
+---
 
-Trends in attack frequency and fatality rates
+## 📊 Key Findings & Insights
 
-Robust data cleaning and statistical methods provide actionable insights for targeted safety and prevention strategies.
+### 🌍 Geographic Risk & Attack Frequency
 
-Data Preparation & Cleaning
-Applied data normalization on columns:
+The majority of documented shark attacks occur in three primary global hotspots:
+* **USA**
+* **Australia**
+* **South Africa**
 
-Country, Activity, Species, Age, Year, Fatal Y/N
+### 🏄 Activities at Highest Risk
 
-Missing values imputed (e.g., median for numerical data).
+The most common activities associated with shark attacks are:
+* **Surfing**
+* **Swimming**
+* **Fishing**
+* **Spearfishing**
 
-Used regular expressions to extract and standardize values (especially for age, location).
+**Crucially, fatality rates are significantly higher for swimmers compared to surfers.**
 
-Key Findings
-Geographic Trends: Most attacks occurred in the USA, Australia, and South Africa.
+### 🧑‍🤝‍ Demographics
 
-Activities at Risk: Surfing, swimming, fishing, and spearfishing were the most common activities.
+Shark attacks disproportionately affect younger individuals:
+* **Nearly 80%** of all victims are **under 30 years old**.
 
-Fatality rates are higher for swimming than surfing.
+### 💀 Fatality Distribution
 
-Demographics: Nearly 80% of victims are under 30 years old.
+Fatal attacks are most frequent in the same high-incidence countries:
+* **USA**
+* **Australia**
+* **South Africa**
 
-Fatality Distribution: Fatal attacks are most frequent where attacks are most common (e.g., USA, Australia, South Africa).
+---
 
-Hypothesis Testing
-Attack location: Confirmed high risk in the USA and Australia.
+## ✅ Hypothesis Testing Validation
 
-Activity fatality: Fatality rates are higher for swimmers than surfers.
+The analysis statistically validated the following core hypotheses:
 
-Victim age: Majority of victims under 30 years old.
+1.  **Attack Location:** Confirmed high risk in the USA and Australia.
+2.  **Activity Fatality:** Confirmed that fatality rates are higher for swimmers than for surfers.
+3.  **Victim Age:** Confirmed the majority of victims are under 30 years old.
 
-Seasonality: Indications of seasonal trends; more granular analysis recommended.
+---
 
-Recommendations
-Focus prevention efforts on youth engaging in high-risk activities in major hotspot countries.
+## 🛠️ Data Preparation & Methodology
 
-Improve safety measures and awareness at beaches, especially in the USA, Australia, and South Africa.
+Robust data cleaning and statistical methods were employed to ensure data integrity and reliable insights:
 
-Encourage protective practices among swimmers, who experience a higher fatality rate.
+* **Normalization:** Applied to key columns including `Country`, `Activity`, `Species`, `Age`, `Year`, and `Fatal Y/N`.
+* **Missing Values:** Imputed using statistical methods (e.g., median for numerical data).
+* **Standardization:** Regular expressions were used to extract and standardize categorical and numerical values (especially age and location details).
 
-Explore temporal trends for refined safety recommendations.
+---
 
-Analytical Strengths
-Advanced data cleaning and imputation techniques.
+## 📋 Recommendations for Marine Safety
 
-Validation of hypotheses with clear, quantifiable metrics.
+Based on the findings, the following targeted recommendations are proposed:
 
-Visualizations and descriptive statistics support clarity and practical insight.
+1.  **Targeted Youth Prevention:** Focus prevention efforts and safety education on **youth** engaging in high-risk activities (surfing, swimming) in major hotspot countries (USA, Australia, South Africa).
+2.  **Swimmer Awareness:** **Encourage protective practices** and increase awareness among swimmers, given their statistically higher fatality rate.
+3.  **Beach Safety:** Improve and increase safety measures and awareness programs at beaches in the USA, Australia, and South Africa.
+4.  **Temporal Analysis:** Further exploration of seasonal trends is necessary for more refined, time-specific safety recommendations.
 
-Next Steps
-Incorporate further temporal analysis (e.g., by month/season).
+---
 
-Develop visual dashboards for ongoing monitoring.
+## ⏭️ Next Steps
 
-Continue expanding dataset for greater accuracy.
+To build upon this analysis and provide ongoing value, the next steps include:
 
+* **Temporal Analysis:** Incorporate granular temporal analysis (e.g., by month/season) to pinpoint high-risk periods.
+* **Visual Dashboards:** Develop interactive visual dashboards for ongoing monitoring and easy communication of trends.
+* **Dataset Expansion:** Continue expanding and updating the dataset to maintain high accuracy and statistical power.
